@@ -35971,7 +35971,9 @@ Provides ESD protection</description>
 <connect gate="D1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-15359" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -37156,7 +37158,9 @@ Why hasn't anyone added the cutout polygons directly to the connector footprint?
 <connect gate="U1" pin="V_USB" pad="38"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-16292" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

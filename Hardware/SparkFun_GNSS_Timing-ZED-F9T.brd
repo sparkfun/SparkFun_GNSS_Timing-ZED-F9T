@@ -11726,6 +11726,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 </element>
 <element name="D10" library="SparkFun-DiscreteSemi" package="0402-TIGHT" value="PESD0402-0402T" x="35.687" y="16.002" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.925" y="16.002" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-15359" x="35.687" y="16.002" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="36.449" y="16.002" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="U$6" library="output" package="L1#L20" value="" x="34.925" y="21.59" smashed="yes" rot="R90"/>
@@ -11737,6 +11738,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 </element>
 <element name="U3" library="ZED-F9T" package="ZED-F9X" value="U-BLOX_ZED_F9T" x="25.4" y="21.59" smashed="yes" rot="R90">
 <attribute name="NAME" x="16.02" y="19.478" size="0.762" layer="25" rot="R90"/>
+<attribute name="PROD_ID" value="IC-16292" x="25.4" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="36.02" y="19.478" size="0.762" layer="27" rot="R90"/>
 </element>
 <element name="J2" library="SparkFun-Connectors" package="JST04_1MM_RA" value="Qwiic Right Angle" x="8.89" y="38.1" smashed="yes" rot="R180">
@@ -12965,7 +12967,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8FF0000"/>
 <mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
 <mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
-<mfgpreviewcolor name="coppercolor" color="0xFF7DBCBC"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFAA00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
