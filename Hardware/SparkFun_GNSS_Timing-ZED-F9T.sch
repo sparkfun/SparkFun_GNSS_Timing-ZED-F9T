@@ -37891,7 +37891,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 <class number="2" name="3.3V" width="0.508" drill="0.3048">
 </class>
-<class number="3" name="RF" width="0.33" drill="0">
+<class number="3" name="RF" width="0.349" drill="0">
 <clearance class="3" value="0.2032"/>
 </class>
 </classes>
@@ -38009,15 +38009,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="420.624" y="7.366" size="2.54" layer="94">v11</text>
+<text x="420.624" y="7.366" size="2.54" layer="94">v10</text>
 <text x="114.3" y="187.96" size="1.778" layer="97" align="center">7-bit unshifted I2C address: 0x42</text>
 <text x="115.062" y="262.382" size="2.54" layer="94" rot="MR180" align="center">u-blox ZED-F9T</text>
 <text x="32.512" y="241.3" size="1.778" layer="97">LQW15ANR12J00D</text>
 <text x="30.48" y="264.16" size="1.27" layer="97">Board thickness: 1.6mm</text>
 <text x="30.48" y="259.08" size="1.27" layer="97">Er: 4.6</text>
 <text x="30.48" y="266.7" size="1.27" layer="97">Copper Thickness (1oz): 1.4mil/0.035mm</text>
-<text x="30.48" y="254" size="1.27" layer="97">RF Trace Width: 13mil/0.33mm</text>
-<text x="30.48" y="256.54" size="1.27" layer="97">Polygon Isolation: 6mil/0.1524mm</text>
+<text x="30.48" y="254" size="1.27" layer="97">RF Trace Width: 13.74mil/0.349mm</text>
+<text x="30.48" y="256.54" size="1.27" layer="97">Polygon Isolation: 8mil/0.2032mm</text>
 <text x="406.4" y="55.88" size="1.27" layer="97">No clean process</text>
 <text x="30.48" y="261.62" size="1.27" layer="97">Dielectric thickness (layer 1 to 2): 0.2mm</text>
 <text x="30.48" y="251.46" size="0.762" layer="97">https://chemandy.com/calculators/coplanar-waveguide-with-ground-calculator.htm</text>
