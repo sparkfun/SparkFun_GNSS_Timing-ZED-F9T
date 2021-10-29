@@ -38021,7 +38021,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="406.4" y="55.88" size="1.27" layer="97">No clean process</text>
 <text x="30.48" y="261.62" size="1.27" layer="97">Dielectric thickness (layer 1 to 2): 0.2mm</text>
 <text x="30.48" y="251.46" size="0.762" layer="97">https://chemandy.com/calculators/coplanar-waveguide-with-ground-calculator.htm</text>
-<text x="30.48" y="269.24" size="1.524" layer="97" ratio="15">Microstrip Calculation:</text>
+<text x="30.48" y="269.24" size="1.524" layer="97" ratio="15">Coplanar Waveguide Calculation:</text>
 <wire x1="0" y1="119.38" x2="124.46" y2="119.38" width="0.2032" layer="97" style="longdash"/>
 <wire x1="124.46" y1="119.38" x2="124.46" y2="0" width="0.2032" layer="97" style="longdash"/>
 <wire x1="124.46" y1="119.38" x2="182.88" y2="119.38" width="0.2032" layer="97" style="longdash"/>
@@ -38376,8 +38376,8 @@ I2C pullups on bus</text>
 <attribute name="VALUE" x="162.56" y="206.248" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
 <instance part="R9" gate="D" x="142.24" y="243.84" smashed="yes">
-<attribute name="NAME" x="142.24" y="245.364" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="142.24" y="242.316" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="NAME" x="137.16" y="244.094" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="147.32" y="244.094" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
 <instance part="R9" gate="A" x="142.24" y="213.36" smashed="yes">
 <attribute name="NAME" x="137.16" y="213.614" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -39042,7 +39042,7 @@ I2C pullups on bus</text>
 <pinref part="J6" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="RXI/MOSI" class="0">
+<net name="RXI/COPI" class="0">
 <segment>
 <wire x1="60.96" y1="63.5" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
 <label x="50.8" y="63.5" size="1.27" layer="95" rot="MR0" xref="yes"/>
@@ -39054,7 +39054,7 @@ I2C pullups on bus</text>
 <pinref part="R2" gate="C" pin="2"/>
 </segment>
 </net>
-<net name="TXO/MISO" class="0">
+<net name="TXO/CIPO" class="0">
 <segment>
 <wire x1="60.96" y1="66.04" x2="50.8" y2="66.04" width="0.1524" layer="91"/>
 <label x="50.8" y="66.04" size="1.27" layer="95" rot="MR0" xref="yes"/>

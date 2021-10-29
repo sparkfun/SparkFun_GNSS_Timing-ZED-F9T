@@ -10,8 +10,8 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top/Horz" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="GND/Horz" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="15" name="Vert" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="2" name="GND/Horz" color="1" fill="3" visible="no" active="yes"/>
+<layer number="15" name="Vert" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom/Vert" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -35,7 +35,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -12500,14 +12500,14 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <contactref element="R14" pad="1"/>
 <contactref element="C1" pad="1"/>
 <contactref element="FB1" pad="2"/>
-<wire x1="35.052" y1="25.281" x2="35.052" y2="17.272" width="0.254" layer="1"/>
+<wire x1="35.052" y1="25.281" x2="35.052" y2="17.399" width="0.254" layer="1"/>
 <wire x1="35.052" y1="27.44" x2="35.679" y2="27.44" width="0.254" layer="1"/>
 <wire x1="35.679" y1="27.44" x2="35.941" y2="27.178" width="0.254" layer="1"/>
 <wire x1="35.695" y1="25.281" x2="35.052" y2="25.281" width="0.254" layer="1"/>
 <wire x1="35.941" y1="27.178" x2="35.941" y2="25.527" width="0.254" layer="1"/>
 <wire x1="35.941" y1="25.527" x2="35.695" y2="25.281" width="0.254" layer="1"/>
-<wire x1="34.725" y1="16.502" x2="34.725" y2="16.945" width="0.254" layer="1"/>
-<wire x1="34.725" y1="16.945" x2="35.052" y2="17.272" width="0.254" layer="1"/>
+<wire x1="34.725" y1="16.502" x2="34.725" y2="17.072" width="0.254" layer="1"/>
+<wire x1="34.725" y1="17.072" x2="35.052" y2="17.399" width="0.254" layer="1"/>
 </signal>
 <signal name="D+">
 <contactref element="R27" pad="1"/>
@@ -12810,7 +12810,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="28.4861" y1="4.5339" x2="28.4861" y2="18.9611" width="0.1778" layer="15"/>
 <wire x1="31.496" y1="20.32" x2="31.2293" y2="20.0533" width="0.1778" layer="16"/>
 </signal>
-<signal name="RXI/MOSI">
+<signal name="RXI/COPI">
 <contactref element="J7" pad="3"/>
 <contactref element="R2" pad="P6"/>
 <wire x1="19.92" y1="6.94" x2="19.92" y2="5.988" width="0.1778" layer="1"/>
@@ -12823,7 +12823,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="22.733" y1="35.56" x2="20.447" y2="33.274" width="0.1778" layer="16"/>
 <wire x1="29.21" y1="37.338" x2="27.432" y2="35.56" width="0.1778" layer="16"/>
 </signal>
-<signal name="TXO/MISO">
+<signal name="TXO/CIPO">
 <contactref element="J7" pad="2"/>
 <contactref element="R2" pad="P5"/>
 <wire x1="19.12" y1="6.94" x2="19.05" y2="6.87" width="0.1778" layer="1"/>
