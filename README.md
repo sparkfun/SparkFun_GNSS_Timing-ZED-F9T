@@ -1,25 +1,33 @@
-SparkFun ESP32 Thing Plus C
+SparkFun GNSS Timing Breakout - ZED-F9T (Qwiic)
 ========================================
 
-[![SparkFun ESP32 Thing Plus C](https://cdn.sparkfun.com//assets/parts/1/7/2/3/9/18018-Thing_Plus_C_-_ESP32_WROOM-01.jpg)](https://www.sparkfun.com/products/18018)
+[![SparkFun GNSS Timing Breakout - ZED-F9T (Qwiic)](https://cdn.sparkfun.com/assets/parts/1/8/3/3/2/18744-SparkFun_GNSS_Timing_Breakout_-_ZED-F9T__Qwiic_-01.jpg)](https://www.sparkfun.com/products/18774)
 
-[*SparkFun ESP32 Thing Plus C (SPX-18018)*](https://www.sparkfun.com/products/18018)
+[*SparkFun GNSS Timing Breakout - ZED-F9T (Qwiic) (GPS-18774)*](https://www.sparkfun.com/products/18774)
 
-The [SparkFun ESP32 Thing Plus C](https://www.sparkfun.com/products/18018) is a comprehensive development platform for [Espressif's ESP32](https://espressif.com/en/products/hardware/esp32/overview). Like the 8266 and ESP32 Thing, the ESP32 Thing Plus is a **WiFi**-compatible microcontroller with support for both **Bluetooth Classic** (i.e. SPP) and **Bluetooth low-energy** (i.e. BLE, BT4.0, Bluetooth Smart), a Qwiic connector, and 21 I/O pins. Add to that a rich set of peripherals ranging from capacitive touch sensors, Hall sensors, SD card interface, Ethernet, high-speed SPIs, UARTs, I2S and I<sup>2</sup>C.
+The SparkFun GNSS Timing Breakout - ZED-F9T (Qwiic) offers a unique entry into SparkFun&apos;s GNSS catalog featuring the ZED-F9T GNSS receiver from u-blox. The ZED-F9T provides up to 5 nanosecond timing accuracy under clear skies with no external GNSS correction. The ZED-F9T supports L1/L2 bands and operates on all major constellations concurrently so it is able to maintain its timing precision even if the module loses connection with on or more of the visible constellations.
 
-We took all the good from the original [ESP32 Thing Plus](https://www.sparkfun.com/products/15663) and sprinkled on some more! USB C provides up to 2A, upgraded 16MB flash ESP32 WROOM module, CH340 USB to serial IC, an onboard fuel gauge IC will make sure you know your battery levels, and an onboard addressable LED is perfect for as a multi-status LED. Oh, and the new taller reset and boot buttons are *so* much easier to push!
-
-We added a dedicator regulator to the Qwiic connector to enable software power control of the Qwiic bus - great for low power logging! There's even a microSD connector on the back!
-
-The ESP32 Thing plus integrates a rich set of peripherals, ranging from capacitive touch sensors, Hall sensors, SD card interface, Ethernet, high-speed SPI, UART, I2S and I2C. Thanks to the onboard ESP32 WROOM module, the SparkFun Thing Plus features 16MB of flash memory, 520kB of internal SRAM, an integrated 802.11 BGN WiFi transceiver and dual-mode Bluetooth capabilities, and a JST connector to plug in a LiPo battery.
-
-For programming, select the 'ESP32 Dev Module'. This will get you direct pin to pin access to each of the WROOM's pins.
+The breakout includes a USB-C connector for primary power and communication, two Qwiic connectors for communicating over I<sup>2</sup>C using the SparkFun [Qwiic system](https://www.sparkfun.com/qwiic), three SMA connectors for the antenna and timing pulse signals as well as a host of PTH pins allowing direct interaction with most of the ZED-F9T's pinout. The board also includes an on-board rechargeable battery that provides power to the RTC on the ZED-F9T. This reduces the time-to-first fix from a cold start (~24s) to a hot start (~2s). 
 
 Repository Contents
 -------------------
 
+* **/Documents** - Datasheet, Appnotes.
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Firmware** - Example sketches demostrating extra peripherals
+
+Documentation
+-------------
+
+* **[SparkFun u-blox GNSS Arduino Library](https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library)** - A comprehensive library for all SparkFun u-blox products.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/gnss-timing-breakout---zed-f9t-qwiic-hookup-guide)** - A basic Hookup Guide to get started with the SparkFun GNSS Timing Breakout - ZED-F9T (Qwiic).
+
+Product Versions
+----------------
+* [GPS-18774](https://www.sparkfun.com/products/18774) - Initial release
+
+Version History
+---------------
+* v1.0 - Initial Release 
 
 License Information
 -------------------
